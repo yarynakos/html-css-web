@@ -1,0 +1,101 @@
+
+footer {
+    height: 35vh;
+    background-color: #E7ECFF;
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-grp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3vh;
+    border-bottom: 0.01rem solid #939EA4;
+   
+}
+
+.year {
+    color: #939EA4;
+}
+
+.iot {
+    margin: 3vh 0;
+    background-color: #091133;
+    width: 10%;
+    padding: 1vh 0;
+    color: white;
+    border: 0.1rem solid #091133;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iot:hover {
+    background-color: transparent;
+    color: #091133;
+}
+
+footer > nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: #929ECC;
+}
+
+.social__buttons {
+    width: 20%;
+}
+
+.social__buttons img {
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .iot {
+        width: 65%;
+    }
+
+    footer > nav {
+        width: 65%;
+    }
+
+    .social__buttons {
+        width: 50%;
+    }
+
+    .social__buttons img {
+         width: 100%;
+    }
+}
+
+@media screen and (min-width: 2160px) {
+    .year {
+        font-size: 3rem;
+    }
+
+    .iot {
+        font-size: 3rem;
+    }
+
+    footer > nav li {
+        font-size: 3rem;
+    }
+
+    .social__buttons {
+        width: 25%;
+    }
+
+    .social__buttons img {
+        width: 100%;
+    }
+}
