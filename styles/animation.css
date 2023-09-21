@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.waviy {
+    position: relative;
+    font-size: 3rem;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    color: #091133;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-1.3rem)
+    }
+  }

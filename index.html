@@ -15,20 +15,51 @@
         <p class="logo">Landie</p>
         <div class="right-side">
             <nav class="right-side__elemgrp">
-                <a href="/">Home</a>
-                <a href="/">About</a>
-                <a href="/">Pricing</a>
+               <li>Home</li>
+               <li>About</li>
+               <li>Pricing</li>
             </nav>
             <div class="right-side__elemgrp">
-                <button class="right-side__elemgrp--blue">Learn more</button>
-                <button class="right-side__elemgrp--yellow">Buy Now</button>
-            </div>
+                <a href="/" class="right-side__elemgrp--blue">Learn more</a>
+                <a href="/" class="right-side__elemgrp--yellow">Buy Now</a>
+            </div> 
         </div>
+        <input type="checkbox" id="checker">
+        <label class="burgerMenu" for="checker">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <div class="burgerNav">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Pricing</a>     
+            </nav>
+            <div class="right-side__elemgrp">
+                <a href="/" class="right-side__elemgrp--blue">Learn more</a>
+                <a href="/" class="right-side__elemgrp--yellow">Buy Now</a>
+            </div>
+        </div> 
     </header>
     <main>
         <div class="titleblock">
             <div class="block__content">
-                <h1>Introduce Your Product Quickly & Effectively</h1>
+                
+                    <h1 class="waviy">
+                        <span style="--i:1">Introduce</span>
+                        <span style="--i:2"> </span>
+                        <span style="--i:3">Your</span>
+                        <span style="--i:4"> </span>
+                        <span style="--i:5">Product</span>
+                        <span style="--i:6"> </span>
+                        <span style="--i:7">Quickly</span>
+                        <span style="--i:8"> </span>
+                        <span style="--i:9">&</span>
+                        <span style="--i:10"> </span>
+                        <span style="--i:10">Effectively</span>
+                       </h1>
+                
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
                     massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -116,13 +147,15 @@
             <p class="year">©2020 LPNU</p>
             <p class="logo">Landie</p>
         </div>
-        <button> IoT edition</button>
+        <button class="iot">IoT edition</button>
         <nav>
-            <a href="/">Home</a>
-            <a href="/">About</a>
-            <a href="/">Contact</a>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
         </nav>
-        <img src="images/social.png" alt="social">
+        <a href="/" class="social__buttons">
+            <img src="images/social.png" alt="social">
+        </a>
     </footer>
 </body>
 </html>
